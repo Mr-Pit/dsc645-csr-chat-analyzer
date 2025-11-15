@@ -36,30 +36,98 @@
     <!-- Hero Section -->
     <section class="pt-32 pb-20 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
-            <div class="max-w-3xl">
-                <div class="inline-flex items-center space-x-2 bg-zinc-900 border border-zinc-800 rounded-full px-4 py-2 mb-8">
-                    <span class="text-xs font-medium text-emerald-400">Coming Q4 2025</span>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-flex items-center space-x-2 bg-zinc-900 border border-zinc-800 rounded-full px-4 py-2 mb-8">
+                        <span class="text-xs font-medium text-emerald-400">Coming Q4 2025</span>
+                    </div>
+                    <h1 class="text-5xl md:text-6xl font-semibold tracking-tight mb-6 leading-[1.1]">
+                        Transform customer conversations into actionable insights
+                    </h1>
+                    <p class="text-xl text-zinc-400 mb-8 leading-relaxed">
+                        AI-powered sentiment analysis that automatically interprets customer support chats, measures satisfaction, and identifies service improvement opportunities—without waiting for manual feedback.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-zinc-100 text-zinc-950 px-6 py-3 rounded-lg font-medium hover:bg-white transition-colors inline-flex items-center justify-center space-x-2">
+                            <span>Join Waitlist</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4" style="stroke-width: 1.5;"></i>
+                        </button>
+                        <button class="border border-zinc-800 px-6 py-3 rounded-lg font-medium hover:border-zinc-700 hover:bg-zinc-900/50 transition-colors inline-flex items-center justify-center space-x-2">
+                            <span>Watch Demo</span>
+                            <i data-lucide="play" class="w-4 h-4" style="stroke-width: 1.5;"></i>
+                        </button>
+                    </div>
                 </div>
-                <h1 class="text-5xl md:text-7xl font-semibold tracking-tight mb-6 leading-[1.1]">
-                    Transform customer conversations into actionable insights
-                </h1>
-                <p class="text-xl text-zinc-400 mb-8 leading-relaxed">
-                    AI-powered sentiment analysis that automatically interprets customer support chats, measures satisfaction, and identifies service improvement opportunities—without waiting for manual feedback.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <button class="bg-zinc-100 text-zinc-950 px-6 py-3 rounded-lg font-medium hover:bg-white transition-colors inline-flex items-center justify-center space-x-2">
-                        <span>Join Waitlist</span>
-                        <i data-lucide="arrow-right" class="w-4 h-4" style="stroke-width: 1.5;"></i>
-                    </button>
-                    <button class="border border-zinc-800 px-6 py-3 rounded-lg font-medium hover:border-zinc-700 hover:bg-zinc-900/50 transition-colors inline-flex items-center justify-center space-x-2">
-                        <span>Watch Demo</span>
-                        <i data-lucide="play" class="w-4 h-4" style="stroke-width: 1.5;"></i>
-                    </button>
+                
+                <!-- Hero Illustration -->
+                <div class="relative">
+                    <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 backdrop-blur-sm">
+                        <!-- Person at computer -->
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&amp;h=100&amp;fit=crop" alt="Customer support agent" class="w-16 h-16 rounded-full border-2 border-zinc-700">
+                            <div class="flex-1">
+                                <div class="text-sm font-medium mb-2">Sarah - Customer Support</div>
+                                <div class="bg-zinc-800 rounded-lg p-3 text-xs text-zinc-300">
+                                    "Hi! I'm having trouble with my order..."
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Real-time sentiment analysis visualization -->
+                        <div class="bg-zinc-800/50 rounded-xl p-6 mb-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <span class="text-xs font-medium text-zinc-400">Real-time Sentiment Analysis</span>
+                                <span class="text-xs text-emerald-400">● Processing</span>
+                            </div>
+                            
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-zinc-400">Positive</span>
+                                    <div class="flex-1 mx-4 bg-zinc-700 rounded-full h-2">
+                                        <div class="bg-emerald-500 h-2 rounded-full" style="width: 68%"></div>
+                                    </div>
+                                    <span class="text-xs font-medium">68%</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-zinc-400">Neutral</span>
+                                    <div class="flex-1 mx-4 bg-zinc-700 rounded-full h-2">
+                                        <div class="bg-blue-500 h-2 rounded-full" style="width: 24%"></div>
+                                    </div>
+                                    <span class="text-xs font-medium">24%</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs text-zinc-400">Negative</span>
+                                    <div class="flex-1 mx-4 bg-zinc-700 rounded-full h-2">
+                                        <div class="bg-red-500 h-2 rounded-full" style="width: 8%"></div>
+                                    </div>
+                                    <span class="text-xs font-medium">8%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Key topics detected -->
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-xs text-emerald-400">Order Issue</span>
+                            <span class="px-3 py-1 bg-blue-500/10 border border-blue-500/20 rounded-full text-xs text-blue-400">Delivery Concern</span>
+                            <span class="px-3 py-1 bg-purple-500/10 border border-purple-500/20 rounded-full text-xs text-purple-400">Resolution Requested</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating stats cards -->
+                    <div class="absolute -bottom-6 -left-6 bg-zinc-900 border border-zinc-800 rounded-xl p-4 shadow-xl">
+                        <div class="text-2xl font-semibold mb-1">12.4k</div>
+                        <div class="text-xs text-zinc-400">Chats Analyzed Today</div>
+                    </div>
+                    
+                    <div class="absolute -top-6 -right-6 bg-zinc-900 border border-zinc-800 rounded-xl p-4 shadow-xl">
+                        <div class="text-2xl font-semibold text-emerald-400 mb-1">94%</div>
+                        <div class="text-xs text-zinc-400">Accuracy Rate</div>
+                    </div>
                 </div>
             </div>
             
             <!-- Stats -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-20 border-t border-zinc-800/50">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-32 pt-20 border-t border-zinc-800/50">
                 <div>
                     <div class="text-4xl font-semibold tracking-tight mb-2">{"&lt;"}5%</div>
                     <div class="text-zinc-400 text-sm">Current customer feedback rate</div>
@@ -76,15 +144,78 @@
         </div>
     </section>
 
-    <!-- Problem Statement -->
+    <!-- Problem Statement with Visualization -->
     <section class="py-20 px-6 lg:px-8 bg-zinc-900/30 border-y border-zinc-800/50">
         <div class="max-w-7xl mx-auto">
-            <div class="max-w-3xl">
-                <div class="text-sm font-medium text-zinc-400 mb-4">The Challenge</div>
-                <h2 class="text-3xl md:text-5xl font-semibold tracking-tight mb-6">Limited visibility into customer satisfaction</h2>
-                <p class="text-lg text-zinc-400 leading-relaxed">
-                    Fewer than 5% of customers provide feedback after CSR interactions, creating a massive blind spot in understanding customer satisfaction and service quality. Traditional feedback mechanisms fail to capture the full picture, leaving critical improvement opportunities undiscovered.
-                </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div class="text-sm font-medium text-zinc-400 mb-4">The Challenge</div>
+                    <h2 class="text-3xl md:text-5xl font-semibold tracking-tight mb-6">Limited visibility into customer satisfaction</h2>
+                    <p class="text-lg text-zinc-400 leading-relaxed mb-6">
+                        Fewer than 5% of customers provide feedback after CSR interactions, creating a massive blind spot in understanding customer satisfaction and service quality. Traditional feedback mechanisms fail to capture the full picture, leaving critical improvement opportunities undiscovered.
+                    </p>
+                    
+                    <!-- Before/After comparison -->
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm text-red-400">❌ Traditional Feedback</span>
+                                <span class="text-sm font-medium">5%</span>
+                            </div>
+                            <div class="w-full bg-zinc-800 rounded-full h-3">
+                                <div class="bg-red-500/50 h-3 rounded-full" style="width: 5%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-sm text-emerald-400">✓ AI-Powered Analysis</span>
+                                <span class="text-sm font-medium">100%</span>
+                            </div>
+                            <div class="w-full bg-zinc-800 rounded-full h-3">
+                                <div class="bg-emerald-500 h-3 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data visualization chart -->
+                <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
+                    <div class="text-sm font-medium mb-6">Customer Feedback Coverage Gap</div>
+                    
+                    <!-- Bar chart visualization -->
+                    <div class="space-y-6">
+                        <div class="flex items-end justify-between h-48">
+                            <div class="flex flex-col items-center flex-1">
+                                <div class="w-full flex flex-col justify-end h-full pb-2">
+                                    <div class="bg-zinc-700 rounded-t-lg mx-auto w-16" style="height: 5%"></div>
+                                </div>
+                                <div class="text-xs text-zinc-400 mt-2">Traditional</div>
+                                <div class="text-xs text-zinc-500 mt-1">5%</div>
+                            </div>
+                            <div class="flex flex-col items-center flex-1">
+                                <div class="w-full flex flex-col justify-end h-full pb-2">
+                                    <div class="bg-emerald-500 rounded-t-lg mx-auto w-16" style="height: 100%"></div>
+                                </div>
+                                <div class="text-xs text-zinc-400 mt-2">SentimentAI</div>
+                                <div class="text-xs text-emerald-400 mt-1">100%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="pt-6 border-t border-zinc-800">
+                            <div class="text-xs text-zinc-500 mb-4">Missing insights cost you</div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="text-center">
+                                    <div class="text-2xl font-semibold text-red-400 mb-1">95%</div>
+                                    <div class="text-xs text-zinc-400">Feedback Lost</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-semibold text-yellow-400 mb-1">Unknown</div>
+                                    <div class="text-xs text-zinc-400">Hidden Issues</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -155,7 +286,7 @@
         </div>
     </section>
 
-    <!-- How It Works -->
+    <!-- How It Works with Visualization -->
     <section id="how-it-works" class="py-32 px-6 lg:px-8 bg-zinc-900/30 border-y border-zinc-800/50">
         <div class="max-w-7xl mx-auto">
             <div class="max-w-3xl mb-16">
@@ -163,36 +294,263 @@
                 <h2 class="text-4xl md:text-5xl font-semibold tracking-tight mb-6">Simple integration, powerful insights</h2>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div class="relative">
-                    <div class="w-10 h-10 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center mb-6 text-emerald-400 font-semibold">1</div>
-                    <h3 class="text-lg font-semibold mb-3">Connect Your Platform</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Integrate with your existing customer support system through our API or pre-built connectors.</p>
+            <!-- Process visualization with people -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center flex-shrink-0 text-emerald-400 font-semibold">1</div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Connect Your Platform</h3>
+                            <p class="text-zinc-400 text-sm leading-relaxed">Integrate with your existing customer support system through our API or pre-built connectors.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center flex-shrink-0 text-emerald-400 font-semibold">2</div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">AI Processes Chats</h3>
+                            <p class="text-zinc-400 text-sm leading-relaxed">MobileBERT models analyze transcripts in real-time, extracting sentiment and key topics.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center flex-shrink-0 text-emerald-400 font-semibold">3</div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Pattern Detection</h3>
+                            <p class="text-zinc-400 text-sm leading-relaxed">Our system identifies recurring issues, trends, and opportunities across all conversations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center flex-shrink-0 text-emerald-400 font-semibold">4</div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Actionable Reports</h3>
+                            <p class="text-zinc-400 text-sm leading-relaxed">Receive detailed insights and recommendations to improve customer experience.</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="relative">
-                    <div class="w-10 h-10 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center mb-6 text-emerald-400 font-semibold">2</div>
-                    <h3 class="text-lg font-semibold mb-3">AI Processes Chats</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">MobileBERT models analyze transcripts in real-time, extracting sentiment and key topics.</p>
+                <!-- Workflow visualization -->
+                <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
+                    <div class="space-y-6">
+                        <!-- Customer interaction -->
+                        <div class="flex items-center space-x-4">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&amp;h=80&amp;fit=crop" alt="Customer" class="w-12 h-12 rounded-full border-2 border-zinc-700">
+                            <div class="flex-1 bg-zinc-800/50 rounded-lg p-3">
+                                <div class="text-xs text-zinc-300">Customer chat message received</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center">
+                            <i data-lucide="arrow-down" class="w-5 h-5 text-zinc-600" style="stroke-width: 1.5;"></i>
+                        </div>
+                        
+                        <!-- AI processing -->
+                        <div class="bg-gradient-to-r from-emerald-500/10 to-blue-500/10 border border-emerald-500/20 rounded-lg p-4">
+                            <div class="flex items-center space-x-3 mb-3">
+                                <div class="w-8 h-8 bg-emerald-500/20 rounded-lg flex items-center justify-center">
+                                    <i data-lucide="cpu" class="w-4 h-4 text-emerald-400" style="stroke-width: 1.5;"></i>
+                                </div>
+                                <span class="text-sm font-medium">AI Analysis in Progress</span>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="flex items-center justify-between text-xs">
+                                    <span class="text-zinc-400">Sentiment Detection</span>
+                                    <span class="text-emerald-400">✓ Complete</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs">
+                                    <span class="text-zinc-400">Topic Extraction</span>
+                                    <span class="text-emerald-400">✓ Complete</span>
+                                </div>
+                                <div class="flex items-center justify-between text-xs">
+                                    <span class="text-zinc-400">Pattern Matching</span>
+                                    <span class="text-emerald-400">✓ Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center">
+                            <i data-lucide="arrow-down" class="w-5 h-5 text-zinc-600" style="stroke-width: 1.5;"></i>
+                        </div>
+                        
+                        <!-- Results to manager -->
+                        <div class="flex items-center space-x-4">
+                            <div class="flex-1 bg-zinc-800/50 rounded-lg p-3">
+                                <div class="text-xs text-zinc-300 mb-2">Insights delivered to dashboard</div>
+                                <div class="flex gap-2">
+                                    <span class="px-2 py-1 bg-emerald-500/10 border border-emerald-500/20 rounded text-xs text-emerald-400">Positive: 85%</span>
+                                    <span class="px-2 py-1 bg-blue-500/10 border border-blue-500/20 rounded text-xs text-blue-400">Topic: Billing</span>
+                                </div>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&amp;h=80&amp;fit=crop" alt="Manager" class="w-12 h-12 rounded-full border-2 border-zinc-700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section class="py-32 px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <div class="text-sm font-medium text-zinc-400 mb-4">Analytics Dashboard</div>
+                <h2 class="text-4xl md:text-5xl font-semibold tracking-tight mb-6">Powerful insights at your fingertips</h2>
+                <p class="text-zinc-400 max-w-2xl mx-auto">Monitor sentiment trends, identify issues, and track improvements in real-time with our intuitive dashboard.</p>
+            </div>
+            
+            <!-- Dashboard mockup -->
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 shadow-2xl">
+                <!-- Dashboard header -->
+                <div class="flex items-center justify-between mb-8 pb-6 border-b border-zinc-800">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-1">Sentiment Overview</h3>
+                        <p class="text-sm text-zinc-400">Last 30 days</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&amp;h=80&amp;fit=crop" alt="User" class="w-10 h-10 rounded-full border-2 border-zinc-700">
+                        <div>
+                            <div class="text-sm font-medium">John Manager</div>
+                            <div class="text-xs text-zinc-400">CS Operations Lead</div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="relative">
-                    <div class="w-10 h-10 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center mb-6 text-emerald-400 font-semibold">3</div>
-                    <h3 class="text-lg font-semibold mb-3">Pattern Detection</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Our system identifies recurring issues, trends, and opportunities across all conversations.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                    <!-- Sentiment distribution chart -->
+                    <div class="lg:col-span-2 bg-zinc-800/30 rounded-xl p-6">
+                        <div class="text-sm font-medium mb-6">Sentiment Trends</div>
+                        <div class="space-y-4">
+                            <!-- Line chart visualization -->
+                            <div class="h-48 flex items-end justify-between space-x-2">
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/30 rounded-t" style="height: 65%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Mon</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/40 rounded-t" style="height: 72%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Tue</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/50 rounded-t" style="height: 68%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Wed</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/60 rounded-t" style="height: 78%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Thu</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/70 rounded-t" style="height: 82%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Fri</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/50 rounded-t" style="height: 75%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Sat</div>
+                                </div>
+                                <div class="flex-1 flex flex-col justify-end space-y-1">
+                                    <div class="bg-emerald-500/40 rounded-t" style="height: 70%"></div>
+                                    <div class="text-xs text-center text-zinc-500">Sun</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-center space-x-6 pt-4 border-t border-zinc-700">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
+                                    <span class="text-xs text-zinc-400">Positive Sentiment</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
+                                    <span class="text-xs text-zinc-400">Neutral</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                                    <span class="text-xs text-zinc-400">Negative</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Key metrics -->
+                    <div class="space-y-4">
+                        <div class="bg-zinc-800/30 rounded-xl p-6">
+                            <div class="text-sm text-zinc-400 mb-2">Avg. Sentiment Score</div>
+                            <div class="text-3xl font-semibold mb-2">8.4/10</div>
+                            <div class="flex items-center space-x-2 text-xs text-emerald-400">
+                                <i data-lucide="trending-up" class="w-3 h-3" style="stroke-width: 1.5;"></i>
+                                <span>+12% from last week</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-zinc-800/30 rounded-xl p-6">
+                            <div class="text-sm text-zinc-400 mb-2">Chats Analyzed</div>
+                            <div class="text-3xl font-semibold mb-2">24.8k</div>
+                            <div class="flex items-center space-x-2 text-xs text-blue-400">
+                                <i data-lucide="activity" class="w-3 h-3" style="stroke-width: 1.5;"></i>
+                                <span>100% coverage</span>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-zinc-800/30 rounded-xl p-6">
+                            <div class="text-sm text-zinc-400 mb-2">Issues Identified</div>
+                            <div class="text-3xl font-semibold mb-2">142</div>
+                            <div class="flex items-center space-x-2 text-xs text-yellow-400">
+                                <i data-lucide="alert-circle" class="w-3 h-3" style="stroke-width: 1.5;"></i>
+                                <span>18 high priority</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="relative">
-                    <div class="w-10 h-10 bg-emerald-500/10 border border-emerald-500/20 rounded-full flex items-center justify-center mb-6 text-emerald-400 font-semibold">4</div>
-                    <h3 class="text-lg font-semibold mb-3">Actionable Reports</h3>
-                    <p class="text-zinc-400 text-sm leading-relaxed">Receive detailed insights and recommendations to improve customer experience.</p>
+                <!-- Top issues table -->
+                <div class="bg-zinc-800/30 rounded-xl p-6">
+                    <div class="text-sm font-medium mb-4">Top Issues This Week</div>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-between p-3 bg-zinc-900/50 rounded-lg">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                                <span class="text-sm">Delivery delays</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <span class="text-xs text-zinc-400">234 mentions</span>
+                                <div class="w-24 bg-zinc-700 rounded-full h-2">
+                                    <div class="bg-red-500 h-2 rounded-full" style="width: 78%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center justify-between p-3 bg-zinc-900/50 rounded-lg">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                                <span class="text-sm">Account access issues</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <span class="text-xs text-zinc-400">187 mentions</span>
+                                <div class="w-24 bg-zinc-700 rounded-full h-2">
+                                    <div class="bg-yellow-500 h-2 rounded-full" style="width: 62%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center justify-between p-3 bg-zinc-900/50 rounded-lg">
+                            <div class="flex items-center space-x-3">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                                <span class="text-sm">Payment processing</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <span class="text-xs text-zinc-400">156 mentions</span>
+                                <div class="w-24 bg-zinc-700 rounded-full h-2">
+                                    <div class="bg-blue-500 h-2 rounded-full" style="width: 52%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Impact -->
-    <section id="impact" class="py-32 px-6 lg:px-8">
+    <section id="impact" class="py-32 px-6 lg:px-8 bg-zinc-900/30 border-y border-zinc-800/50">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div>
@@ -297,7 +655,7 @@
     </section>
 
     <!-- Technology -->
-    <section id="technology" class="py-32 px-6 lg:px-8 bg-zinc-900/30 border-y border-zinc-800/50">
+    <section id="technology" class="py-32 px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
             <div class="max-w-3xl mb-16">
                 <div class="text-sm font-medium text-zinc-400 mb-4">Technology</div>
@@ -388,7 +746,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-32 px-6 lg:px-8">
+    <section class="py-32 px-6 lg:px-8 bg-zinc-900/30 border-y border-zinc-800/50">
         <div class="max-w-7xl mx-auto">
             <div class="bg-gradient-to-br from-emerald-500/10 to-blue-500/10 border border-zinc-800 rounded-2xl p-12 md:p-16 text-center">
                 <h2 class="text-4xl md:text-5xl font-semibold tracking-tight mb-6">Join the waitlist for early access</h2>
